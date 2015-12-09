@@ -1,0 +1,43 @@
+/* CSS for forum region */
+
+#titlebar {
+	font-weight:bold;
+}
+
+#catContainer {
+	text-align: center;
+	clear: both;
+	overflow:auto;
+}
+
+.topic {
+	text-align:center;
+	
+	margin:auto;
+	width:80%;
+}
+.topic div{
+	padding:auto;
+	display:inline;
+	float:left;
+	
+	box-shadow:0px 0px 1px black;
+	
+}
+#name {
+	
+	width:35%;
+}
+#created-by{
+	
+	width:25%;
+}
+#reply-count{
+	
+	width:15%;
+}
+#last-update{
+	
+	float:right;
+	width:25%;
+}
